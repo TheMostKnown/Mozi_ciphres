@@ -101,7 +101,7 @@ def main():
         if alphabet.find(phrase[i]) == -1 :
             raise TypeError('Invalid phrase (symbols)')
 
-    print('Input key')
+    print('Input key:')
     key = str(input())
     for i in range(len(key)):
         if alphabet.find(key[i]) == -1 :
